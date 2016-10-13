@@ -30,6 +30,12 @@ class PermissionsTableSeeder extends Seeder
                 'slug' => 'manage.permissions',
                 'created_at' => \Carbon\Carbon::now()->toDateTimeString(),
                 'updated_at' => \Carbon\Carbon::now()->toDateTimeString(),
+            ], [
+                'id' => 4,
+                'name' => 'Manage Companies',
+                'slug' => 'manage.companies',
+                'created_at' => \Carbon\Carbon::now()->toDateTimeString(),
+                'updated_at' => \Carbon\Carbon::now()->toDateTimeString(),
             ],
         ]);
     }

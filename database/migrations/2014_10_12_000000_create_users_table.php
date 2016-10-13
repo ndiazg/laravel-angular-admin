@@ -23,6 +23,8 @@ class CreateUsersTable extends Migration
             $table->enum('email_verified', ['1', '0'])->default('0');
             $table->string('email_verification_code', 60)->nullable();
             $table->rememberToken();
+            $table->integer('company_id')->unsigned();
+            $table->integer('created_by')->unsigned();
             $table->timestamps();
         });
     }

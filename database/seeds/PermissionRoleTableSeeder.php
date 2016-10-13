@@ -48,6 +48,12 @@ class PermissionRoleTableSeeder extends Seeder
                 'role_id' => 1,
                 'created_at' => \Carbon\Carbon::now()->toDateTimeString(),
                 'updated_at' => \Carbon\Carbon::now()->toDateTimeString(),
+            ], [
+                'id' => 7,
+                'permission_id' => 4,
+                'role_id' => 1,
+                'created_at' => \Carbon\Carbon::now()->toDateTimeString(),
+                'updated_at' => \Carbon\Carbon::now()->toDateTimeString(),
             ],
         ]);
     }
